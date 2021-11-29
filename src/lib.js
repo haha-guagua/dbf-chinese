@@ -27,7 +27,7 @@ module.exports.rpad = function rpad(str, len, char) {
  */
 module.exports.writeField = function writeField(view, fieldLength, str, offset) {
     for (var i = 0; i < fieldLength; i++) {
-        view.setUint8(offset, str.charCodeAt(i)); offset++;
+        view.setUint8(offset, str.charCodeAt(encodeURIComponent(i))); offset++;
     }
     return offset;
 };
