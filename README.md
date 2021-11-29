@@ -1,8 +1,13 @@
-# dbf
+# dbf-chinese
+---
 
 [![Build Status](https://travis-ci.org/mapbox/dbf.svg?branch=master)](https://travis-ci.org/mapbox/dbf)
 
 ---
+
+
+因为原作者不再维护dbf项目，所以新开一个项目用来修改dbf不支持中文字符和属性名长度的问题
+
 
 ## Looking for new maintainers!
 
@@ -18,12 +23,12 @@ support.
 ## usage
 
 ```
-npm install dbf
+npm install dbf-chinese
 ```
 
 Or just in a browser:
 
-    https://unpkg.com/dbf@latest/dbf.js
+    https://unpkg.com/dbf@latest/dbf-chinese.js
 
 Replace `latest` with the latest version if you want to be sure.
 
